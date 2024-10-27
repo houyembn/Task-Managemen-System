@@ -1,0 +1,44 @@
+.input_nom_projet{
+    height: 2vw;
+    width: 30vw;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid rgba(16, 16, 183, 0.468);
+    padding-left: 1.5vw;
+    font-size: 1vw;
+    border-bottom-width:2px;
+    transition: all 0.3s ease;
+}
+
+.input_nom_projet:focus{
+    border-color: #0A1172;
+}
+  
+.editable-paragraph{
+height: 9.6vw; /*130px;*/
+width: 30vw; /*150%;*/
+outline: none;
+border-radius: 5px;
+border: 2px solid rgba(16, 16, 183, 0.468);
+padding-left: 1.5vw; /*15px;*/
+font-size: 1vw; /*16px;*/
+border-bottom-width: 0.2vw; /*2px;*/
+transition: all 0.3s ease;
+}
+
+.editable-paragraph:focus{
+border-color: #0A1172;
+}
+
+.employee-title{
+    color: #512da8  !important;
+}
+
+:where(.css-dev-only-do-not-override-2q8sxy).ant-modal .ant-modal-title {
+    margin-bottom: 60px;
+    color: rgba(0, 0, 0, 0.88);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}

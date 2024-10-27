@@ -1,0 +1,48 @@
+.task-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.checkboxstatut {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+  appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+  
+.checkboxstatut::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white; /* Default color for the checkmark */
+  transition: background-color 0.3s ease;
+}
+  
+.checkboxstatut:checked::before {
+  background-color: green; /* Color for completed tasks */
+}
+
+label {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.h3 {
+  /* Style for project name (h3) */
+  color: #3366cc; /* Change the color to your preference */
+  font-size: 18px; /* Adjust the font size */
+  margin-bottom: 8px; /* Add some space between project names and tasks */
+}

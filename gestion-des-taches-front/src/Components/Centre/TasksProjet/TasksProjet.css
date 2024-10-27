@@ -1,0 +1,8 @@
+.table td {
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    align-items: center;
+    text-align: center;
+}
+
